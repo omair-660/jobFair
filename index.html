@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job fair</title>
+    <link rel="stylesheet" href="cs/master.css">
+    <link rel="stylesheet" href="cs/bootstrap.min.css">
+</head>
+<body>
+    
+    
+
+    <main>
+        <section class="my-5 py-4">
+
+            <div class="container">
+                <input type="text" class="search form-control my-3 w-100" placeholder="Search By Name">
+                <input type="number" class="searchId form-control my-3 w-100" placeholder="Search By Amount">
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-hover overflow-x-auto text-center">
+                        <thead>
+                            <tr>
+                              <th scope="col">ID</th>
+                              <th scope="col">Name</th>
+                              <th scope="col">Date</th>
+                              <th scope="col">Amount</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            
+                          </tbody>
+                      </table>
+                      <div class="alert alert-warning text-center mt-4 w-100 not-found" role="alert">
+                        <i class="fa-solid fa-face-grin-tongue-squint fs-4 "></i> Not found!
+                    </div>
+                </div>
+                <canvas id="myChart" width="400" height="200"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
