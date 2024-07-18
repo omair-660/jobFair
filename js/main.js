@@ -56,7 +56,7 @@ window.addEventListener("load", function() {
                 transactions.forEach((transaction, index) => {
                     content += `
                     <tr data-customer-id="${customerId}">
-                        <th scope="row">${transaction.id}</th>
+                        <th scope="row">${customer.id}</th>
                         <td>${index === 0 ? customer.name : ''}</td>
                         <td>${transaction.date}</td>
                         <td>${transaction.amount}</td>
